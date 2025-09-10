@@ -1,16 +1,6 @@
 # Palanquin
 
-A publishing platform written using ReactNative
+An AI agent for automating all the tasks
 
-# Install
-npm install -g react-native-cli
 
-# Steps
-react-native init ProductFinder
-
-cd ProductFinder
-
-npm install
-
-react-native run-ios
 
