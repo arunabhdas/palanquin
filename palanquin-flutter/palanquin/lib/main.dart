@@ -20,9 +20,11 @@ class MyApp extends StatelessWidget {
             child: const Text("Testing"),
             margin: const EdgeInsets.all(50),
             padding: const EdgeInsets.all(10),
-            color: Colors.red,
             height: 10,
             width: 10,
+            decoration: BoxDecoration(
+              color: Colors.amber
+            ),
           ),
       )
     );
