@@ -5,11 +5,15 @@ void main() {
   runApp(MyApp());
 }
 
-class MyAppp extends StatelessWidget {
-  const MyAppp({super.key});
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return MaterialApp(
+      home: Scaffold(
+
+      )
+    );
   }
 }
