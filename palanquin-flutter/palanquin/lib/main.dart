@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 
 void main() {
-  runApp(MyApp());
+  runApp(BaseApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -30,5 +30,28 @@ class MyApp extends StatelessWidget {
           ),
       )
     );
+  }
+}
+
+class BaseApp extends StatelessWidget {
+  const BaseApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+          appBar: AppBar(
+            backgroundColor: Colors.green,
+            title: const Text("Palanquin"),
+          ),
+          body: Row(
+            children: const [
+              Icon(Icons.backpack),
+              Icon(Icons.leaderboard),
+              Icon(Icons.portable_wifi_off_outlined)
+              ],
+            )
+          ),
+      );
   }
 }
