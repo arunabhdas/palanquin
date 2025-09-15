@@ -14,7 +14,10 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
           appBar: AppBar(
             backgroundColor: Colors.green,
-            title: const Text("Flutter is fun"),
+            title: const Text("Palanquin"),
+          ),
+          body: Container(
+            child: const Text("Testing"),
           ),
       )
     );
