@@ -16,14 +16,16 @@ class MyApp extends StatelessWidget {
             backgroundColor: Colors.green,
             title: const Text("Palanquin"),
           ),
-          body: Container(
-            child: const Text("Testing"),
-            margin: const EdgeInsets.all(50),
-            padding: const EdgeInsets.all(10),
-            height: 10,
-            width: 10,
-            decoration: BoxDecoration(
-              color: Colors.amber
+          body: Center(
+            child: Container(
+              child: const Text("Testing"),
+              margin: const EdgeInsets.all(50),
+              padding: const EdgeInsets.all(10),
+              height: 50,
+              width: 50,
+              decoration: BoxDecoration(
+                color: Colors.amber
+              ),
             ),
           ),
       )
