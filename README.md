@@ -1,6 +1,6 @@
 # Palanquin
 
-An AI agent for automating all the tasks
+Agentic AI CRM platform and starter kit
 
 
 
