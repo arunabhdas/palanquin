@@ -1,0 +1,2 @@
+# PDF to LaTeX to PDF Converter Dependencies
+pdfplumber>=0.9.0

@@ -1,0 +1,163 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{parskip}
+\geometry{margin=1in}
+
+\begin{document}
+
+\title{Palanquin Mobile App}
+\maketitle
+
+\section{Summary}
+
+Palanquin is a customer relationship management software for the real estate industry, with a
+
+focus on Real Estate Developers and Home Builders. Our clients are some of the largest real
+
+estate developers in North America.
+
+Our application is web-based and optimized for the desktop, although all features are
+
+accessible via mobile devices (although not always in a pleasant way.) The app supports
+
+marketing and sales efforts, allowing clients to guide their sales team by generating activities
+
+(such as “send email” or “call lead”) when a lead reaches a certain stage (e.g. receives an “A”
+
+rating) and to undertake marketing activities (e.g. send mass mails to a list of leads.)
+
+Leads are either manually entered by the sales staff, or created through on of our integrations
+
+with lead-nurturing tools. Once a lead has converted to a purchaser, we pass them off to
+
+contract management applications. Integrations with 3rd-party services are core to our
+
+business.
+
+Especially important are reports that track sales progress and sales team performance. To
+
+provide good insights, the data the reports access has to be up-to-date and reliable. However,
+
+most sales staff are used to using their mobile devices automatically syncing completed
+
+appointments, phone calls or text messages. We currently require those items to be manually
+
+entered, which has a high risk of creating unreliable or invalid data (as most manual processes
+
+do), and also causes frustration and friction for sales reps. Instead of making their job easier
+
+and assisting in reaching conversion goals, we take precious time away by requiring tedious
+
+data entry.
+
+A mobile app with close integration into the mobile operating system would alleviate most
+
+concerns around manual data entry, and allow us to actually create value for sales reps.
+
+\section{Features}
+
+\subsection{This is a list of features we would like to have in our app:}
+
+\begin{itemize}
+\item Login system to connect to Palanquin account
+\begin{itemize}
+\item Authentication for the API is handled by a PHPSESSID cookie to hook into our
+\end{itemize}
+\end{itemize}
+existing authentication system
+
+\begin{itemize}
+\item Username/Password could be stored on the device
+\item Push notifications would use a different authentication scheme so we can notify
+\end{itemize}
+users that aren’t currently logged in
+
+\begin{itemize}
+\item Overlay over incoming phone calls
+\begin{itemize}
+\item Use phone number to look up leads in Palanquin and show details when they call
+\end{itemize}
+\end{itemize}
+the sales rep
+
+\begin{itemize}
+\item Include name, rating, email, last note, last contact information, etc - precisely
+\end{itemize}
+what info is still t.b.d.
+
+\begin{itemize}
+\item Track phone calls
+\begin{itemize}
+\item Identify leads in Palanquin by searching via the phone number and matching
+\end{itemize}
+\end{itemize}
+assigned sales reps against the mobile user
+
+\begin{itemize}
+\item Automatically complete scheduled phone-call activities if lead, sales rep, and
+\end{itemize}
+timing match
+
+\begin{itemize}
+\item Add a history item for the phone call to the leads profile, contain the time and
+\end{itemize}
+length of the call
+
+\begin{itemize}
+\item Track text messages
+\begin{itemize}
+\item Like phone calls, identify lead by phone number + mobile user as assigned sales
+\end{itemize}
+\end{itemize}
+rep
+
+\begin{itemize}
+\item Create history item for the text message, include the content, time, and date of
+\end{itemize}
+contact
+
+\begin{itemize}
+\item Activities management
+\begin{itemize}
+\item Show list of activities to complete
+\item Allow completing/deleting/snoozing/rescheduling activities from the list
+\title{● Appointments management}
+\maketitle
+
+\item Show list of appointments
+\item Allow completing/cancelling appointments
+\item Allow rescheduling appointments
+\item Maybe integrate with calendar, although we’re looking into a service to integrate
+\end{itemize}
+\end{itemize}
+with that would take care of syncing the calendar
+
+\begin{itemize}
+\item Lead details page
+\begin{itemize}
+\item Include basic information such as name, email, phone number, address, rating,
+\end{itemize}
+\end{itemize}
+etc
+
+\begin{itemize}
+\item Include contact list of contact history, notes, questions and answers and custom
+\end{itemize}
+fields (both can be defined by the client)
+
+\begin{itemize}
+\item Provide list of assigned sales reps
+\item Allow changing the rating and answering questions/custom fields
+\end{itemize}
+\begin{itemize}
+\item Manual entering of history items
+\begin{itemize}
+\item Consists of a type, date and text field
+\end{itemize}
+\item Entering notes (simple text field)
+\end{itemize}
+
+\end{document}
